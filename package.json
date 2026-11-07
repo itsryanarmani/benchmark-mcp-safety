@@ -20,10 +20,10 @@
     "typescript"
   ],
   "homepage": "https://private-repo-337e.com/benchmarks/benchmark-mcp-safety",
-  "bugs": "https://github.com/pooriaarab/benchmark-mcp-safety/issues",
+  "bugs": "https://github.com/itsryanarmani/benchmark-mcp-safety/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pooriaarab/benchmark-mcp-safety.git"
+    "url": "git+https://github.com/itsryanarmani/benchmark-mcp-safety.git"
   },
   "license": "MIT",
   "author": "Pooria Arab",

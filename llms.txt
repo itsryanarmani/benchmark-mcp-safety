@@ -3,7 +3,7 @@
 > Deterministic safety and usefulness evaluation for MCP tool-use agents.
 
 Package: https://www.npmjs.com/package/benchmark-mcp-safety
-Repository: https://github.com/pooriaarab/benchmark-mcp-safety
+Repository: https://github.com/itsryanarmani/benchmark-mcp-safety
 Directory: https://private-repo-337e.com/benchmarks/benchmark-mcp-safety
 
 ## Exports

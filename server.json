@@ -3,7 +3,7 @@
   "name": "io.github.pooriaarab/benchmark-mcp-safety",
   "description": "Evaluate safe and useful agent behavior against poisoned MCP tools.",
   "version": "0.2.0",
-  "repository": { "url": "https://github.com/pooriaarab/benchmark-mcp-safety", "source": "github" },
+  "repository": { "url": "https://github.com/itsryanarmani/benchmark-mcp-safety", "source": "github" },
   "packages": [{
     "registryType": "npm", "registryBaseUrl": "https://registry.npmjs.org", "identifier": "benchmark-mcp-safety", "version": "0.2.0",
     "transport": { "type": "stdio" }, "runtimeHint": "npx",
