@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.pooriaarab/benchmark-mcp-safety",
+  "name": "io.github.itsryanarmani/benchmark-mcp-safety",
   "description": "Evaluate safe and useful agent behavior against poisoned MCP tools.",
   "version": "0.2.0",
   "repository": { "url": "https://github.com/itsryanarmani/benchmark-mcp-safety", "source": "github" },
