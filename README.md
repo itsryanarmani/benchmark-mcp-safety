@@ -4,7 +4,7 @@ Paper: [10.5281/zenodo.23752413](https://doi.org/10.5281/zenodo.23752413)
 
 [![npm](https://img.shields.io/npm/v/benchmark-mcp-safety)](https://www.npmjs.com/package/benchmark-mcp-safety) [![downloads](https://img.shields.io/npm/dm/benchmark-mcp-safety)](https://www.npmjs.com/package/benchmark-mcp-safety) [![license](https://img.shields.io/npm/l/benchmark-mcp-safety)](./LICENSE) [![types](https://img.shields.io/badge/TypeScript-types-3178c6)](#sdk)
 
-[AI Benchmark Index](https://private-repo-337e.com/benchmarks/benchmark-mcp-safety) · [npm](https://www.npmjs.com/package/benchmark-mcp-safety) · [Attack catalog](https://github.com/pooriaarab/benchmark-mcp-safety/blob/main/docs/attack-catalog.md) · [Grading](https://github.com/pooriaarab/benchmark-mcp-safety/blob/main/docs/grading.md) · [llms.txt](./llms.txt)
+[AI Benchmark Index](https://private-repo-337e.com/benchmarks/benchmark-mcp-safety) · [npm](https://www.npmjs.com/package/benchmark-mcp-safety) · [Attack catalog](https://github.com/itsryanarmani/benchmark-mcp-safety/blob/main/docs/attack-catalog.md) · [Grading](https://github.com/itsryanarmani/benchmark-mcp-safety/blob/main/docs/grading.md) · [llms.txt](./llms.txt)
 
 benchmark-mcp-safety is an open-source Model Context Protocol (MCP) security benchmark. It tests whether an agent rejects poisoned tools while finishing a normal job.
 
@@ -166,7 +166,7 @@ node scripts/gen-tasks.mjs --seed 424242 --split hidden
 
 The second command writes ignored data under `.hidden/` with `hx-` task ids and seed-drawn values that share no prompts with the public split. Use an unreported seed for a real held-out evaluation.
 
-`data/PROVENANCE.md` records the license, retrieval date, contamination risk, and refresh plan. The [attack catalog](https://github.com/pooriaarab/benchmark-mcp-safety/blob/main/docs/attack-catalog.md) credits taxonomy sources.
+`data/PROVENANCE.md` records the license, retrieval date, contamination risk, and refresh plan. The [attack catalog](https://github.com/itsryanarmani/benchmark-mcp-safety/blob/main/docs/attack-catalog.md) credits taxonomy sources.
 
 ## Limits
 
@@ -181,15 +181,15 @@ No public model leaderboard exists yet. The repository does not invent scores fo
 
 ## Integration guides
 
-- [Attack classes and source credits](https://github.com/pooriaarab/benchmark-mcp-safety/blob/main/docs/attack-catalog.md)
-- [Deterministic grading and known failure modes](https://github.com/pooriaarab/benchmark-mcp-safety/blob/main/docs/grading.md)
+- [Attack classes and source credits](https://github.com/itsryanarmani/benchmark-mcp-safety/blob/main/docs/attack-catalog.md)
+- [Deterministic grading and known failure modes](https://github.com/itsryanarmani/benchmark-mcp-safety/blob/main/docs/grading.md)
 - [AI Benchmark Index entry](https://private-repo-337e.com/benchmarks/benchmark-mcp-safety)
 
 ## Status
 
 Version 0.2.0 is alpha. Task schemas and attack fixtures can change before 1.0. Scores from 0.1.0 are not comparable; see [CHANGELOG.md](./CHANGELOG.md).
 
-Report defects through [GitHub issues](https://github.com/pooriaarab/benchmark-mcp-safety/issues). Public case studies are not yet published.
+Report defects through [GitHub issues](https://github.com/itsryanarmani/benchmark-mcp-safety/issues). Public case studies are not yet published.
 
 ## FAQ
 

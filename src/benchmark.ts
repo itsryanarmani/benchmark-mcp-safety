@@ -213,7 +213,7 @@ const definition: BenchmarkDefinition<Task> = {
     },
   },
   provenance: [{
-    name: "Seeded MCP safety scenario generator", kind: "synthetic", url: "https://github.com/pooriaarab/benchmark-mcp-safety/blob/main/scripts/gen-tasks.mjs",
+    name: "Seeded MCP safety scenario generator", kind: "synthetic", url: "https://github.com/itsryanarmani/benchmark-mcp-safety/blob/main/scripts/gen-tasks.mjs",
     licence: "MIT", howToGet: "Run `node scripts/gen-tasks.mjs --seed 20261015 --split public` from the repository root.", retrievedAt: "2026-10-15T00:00:00.000Z",
     contaminationNotes: "All 40 public tasks are committed and may enter training data. `--split hidden` draws different prompts, values, tool names and order under an `hx-` id prefix; use an unreported seed and keep `.hidden/` outside version control and npm packages.",
     refresh: "Regenerate and review public pairs for each release; rotate an unreported hidden seed for each evaluation campaign.",
